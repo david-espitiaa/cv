@@ -11,14 +11,12 @@ Este repositorio contiene una página web diseñada para presentar mi currículu
 ## 📂 Estructura del repositorio
 
 - `index.html`: Archivo principal de la página web.
-- `style.css`: Estilos utilizados para personalizar el diseño.
-- `scripts.js`: Scripts adicionales para interactividad.
-- `/assets`: Carpeta que contiene imágenes, íconos y otros recursos.
+- `stylsheet.css`: Estilos utilizados para personalizar el diseño.
 
 ## 🌟 Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- JavaScript
+
 
 
