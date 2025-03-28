@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum David Espitia</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <script>
+        window.addEventListener("scroll", function() {
+            let scrollMax = document.documentElement.scrollHeight - window.innerHeight;
+            let scrollPosition = window.scrollY;
+            let colorValue = Math.max(0, 255 - (scrollPosition / scrollMax) * 255);
+            
+            document.body.style.backgroundColor = `rgb(${colorValue}, ${colorValue}, ${colorValue})`;
+        });
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Currículum de David</h1>
+
+        <div class="section">
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Juan David Espitia Alejandre</p>
+            <p><strong>Ubicación:</strong> León, Gto.</p>
+            <p><strong>Teléfono:</strong> 462 208 4665</p>
+            <p><strong>Email:</strong> david.espitiaa99@gmail.com</p>
+            <p><strong>GitHub:</strong> https://github.com/david-espitiaa</p>
+        </div>
+        
+        <div class="section">
+            <h2>Educación</h2>
+            <ul>
+                <li><strong>Ingeniería en Electrónica y Telecomunicaciones</strong> - La Salle Bajío, 2021 - Diciembre 2025</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li class="static-li">Técnicas:
+                    <ol>
+                        <li>Diseño Electrónico y Eléctrico</li>
+                        <li>Programación C/C++, Python</li>
+                        <li>Programación PLC</li>
+                        <li>Neumática y Electroneumática</li>
+                        <li>IoT</li>
+                        <li>Visión Artificial</li>
+                        <li>Diseño y Modelado 3D</li>
+                        <li>Bases de Datos (SQL)</li>
+                        <li>Desarrollo Web y Redes</li>
+                    </ol>
+                </li>
+                <li class="static-li">Blandas:
+                    <ol>
+                        <li>Innovación</li>
+                        <li>Proactividad</li>
+                        <li>Adaptabilidad</li>
+                        <li>Gestión del Tiempo</li>
+                        <li>Pensamiento Crítico</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Software</h2>
+            <ul>
+                <li>Siemens TIA Portal</li>
+                <li>AutoCAD</li>
+                <li>Inventor</li>
+                <li>Altium</li>
+                <li>KiCad</li>
+                <li>LabVIEW</li>
+                <li>Proteus</li>
+                <li>LTspice</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Proyectos y Experiencias Destacadas</h2>
+            <ul>
+                <li><strong>Soldador de Puntos:</strong> El proyecto consistió en diseñar y construir una automatización para soldadura por puntos utilizando PLC, HMI y neumática. El usuario puede seleccionar un modo manual, en el cual controla el voltaje promedio que pasa por el material y la posición del pistón que sujeta el electrodo. En modo automático, el operador selecciona la cantidad de ciclos, los tiempos de duración de cada ciclo y el voltaje promedio durante todo el proceso.</li>
+                <li><strong>Balancín Volador con PID:</strong> Implementación de un control PID para un balancín utilizando un motor brushless de dron, un encoder magnético digital y una placa de desarrollo PSoc 5LP como controlador. El objetivo consistía en mantener el motor volando en una posición fija, la cual podía ser modificada. Se añadió una interfaz gráfica para modificar en tiempo real las constantes P-I-D y el setpoint (ángulo de inclinación del balancín), además de visualizar gráficas del error, la posición y la potencia del motor.</li>
+                <li><strong>Carro de Control Remoto por Gestos:</strong> Un proyecto escolar el cual consistió en controlar un pequeño carro, el cual se movía en base a los gestos de una mano los cuales eran analizados por visión artificial y enviados por Bluetooth.</li>
+                <li><strong>Reto Bushido (SMC):</strong> Participé en la competencia a nivel nacional con buenos resultados de aprendizaje en el área de automatización industrial, utilizando tecnologías como PLC y sistemas electroneumáticos.</li>
+                <li><strong>Equipo Robótica La Salle Bajío:</strong> Formo parte del equipo representativo de robótica de la universidad, el cual busca competir en categorías de batalla y seguidores de línea. Dentro del equipo, hago la función tanto de participante como de asesor.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Currículum En PDF</h2>
+            <a href="Curriculum.pdf" target="_blank">Descargar</a>
+</div>
+</body>
+</html>
